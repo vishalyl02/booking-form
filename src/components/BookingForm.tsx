@@ -242,7 +242,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ selectedCity }) => {
               variant="contained"
               color="primary"
               fullWidth
-              onClick={handleConfirmBooking}
+              onClick={handleConfirmBooking} // Call handleConfirmBooking when the button is clicked
             >
               Confirm Booking
             </Button>
